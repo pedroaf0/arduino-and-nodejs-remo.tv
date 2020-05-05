@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <title>Remo.TV</title>
+    <meta name="Description" content="Remo is an open telerobotics platform made for sharing remote control of robots in real time.">
+    <link href="./Remo.TV_files/main.481e0de1.chunk.css" rel="stylesheet">
+</head>
+
+<body>
+    <noscript>Open telerobotics platform.</noscript>
+    <div id="root">
+        <div>
+            <div class="App">
+                <div class="nav-container">
+     
+                </div>
+                <div class="server-container">
+                    <div id='list-channels-container' class="list-channels-container">
+                        <div class="server-info-container">
+                            <div class="display-server-name">ArmBot</div>
+                            <div class="join-server-container">
+                                <div class="heart-container-joined">
+                                    <div class="follow-icon">
+                                        <svg width="16px" height="16px" viewBox="0 0 1024 1024" style="display: inline-block; vertical-align: middle;">
+                                            <path d="M755.188 64c-107.63 0-200.258 87.554-243.164 179-42.938-91.444-135.578-179-243.216-179-148.382 0-268.808 120.44-268.808 268.832 0 301.846 304.5 380.994 512.022 679.418 196.154-296.576 511.978-387.206 511.978-679.418 0-148.392-120.43-268.832-268.812-268.832z" style="fill: rgb(255, 0, 0);"></path>
+                                        </svg>
+                                    </div>
+                                    <div>Members</div>
+                                </div>
+                                <div class="member-count"> 1 </div>
+                            </div>
+                            <div class="users-online-edit-container">
+                                <div class="display-server-info">Users Online: <span class="spacer"> 1</span></div>
+                                <div class="server-settings">( settings )</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="scroll-box">
+                        <div class="robot-container">
+                            <div class="robot-display-container">
+<iframe
+    src="https://player.twitch.tv/?channel=pedroaf0&parent=streamernews.example.com&muted=true"
+
+    frameborder="0"
+    scrolling="no"
+    allowfullscreen="true"
+			height="500px"
+        width="100%">
+</iframe>                                <div class="display-controls-container">
+                                    <div class="display-control" title="Volume" id="display-volume-control"><span><svg width="16px" height="16px" viewBox="0 0 1024 1024" style="display: inline-block; vertical-align: middle;"><path d="M869.18 900.43c-11.998 0-23.99-4.576-33.146-13.727-18.305-18.307-18.305-47.984 0-66.291 85.584-85.588 132.719-199.375 132.719-320.41 0-121.033-47.135-234.822-132.719-320.408-18.305-18.307-18.305-47.986 0-66.291s47.986-18.305 66.291 0c103.291 103.293 160.178 240.625 160.178 386.699s-56.887 283.406-160.178 386.699c-9.152 9.152-21.148 13.729-33.145 13.729zm-166.514-88.389c-11.998 0-23.99-4.576-33.146-13.727-18.305-18.305-18.305-47.984 0-66.291 127.936-127.936 127.936-336.104 0-464.039-18.305-18.307-18.305-47.986 0-66.291 18.305-18.303 47.986-18.305 66.291 0C815.493 281.371 859.375 387.312 859.375 500c0 112.686-43.883 218.629-123.564 298.311-9.152 9.154-21.148 13.73-33.145 13.73zm-166.514-88.389c-11.998 0-23.992-4.576-33.146-13.729-18.307-18.307-18.307-47.982 0-66.289 79.199-79.199 79.199-208.064 0-287.262-18.307-18.307-18.307-47.986 0-66.291s47.984-18.305 66.291 0c115.752 115.752 115.752 304.094 0 419.846-9.152 9.148-21.148 13.725-33.145 13.725zM406.256 937.5a31.239 31.239 0 0 1-22.104-9.154L143.306 687.5H31.249c-17.258 0-31.25-13.99-31.25-31.25v-312.5c0-17.258 13.992-31.25 31.25-31.25h112.057L384.152 71.652a31.247 31.247 0 0 1 34.057-6.773A31.248 31.248 0 0 1 437.5 93.75v812.5a31.246 31.246 0 0 1-31.244 31.25z" style="fill: white;"></path></svg></span>
+                                        <input type="range" min="0" max="2" step="0.1" orient="vertical" value="0">
+                                    </div>
+                                </div>
+                                <div id='display-info-container' class="display-info-container">
+                    
+
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                            </div>
+                            <div class="robot-controls-container">
+                                <div class="label-container">
+                                    <div class="label label-top">movement</div>
+                                </div>                                
+                                <button onclick="cli('w');" class="robtn" ><span class="hotkey">w</span>esquerda</button>
+                                <button onclick="cli('s')" class="robtn"><span class="hotkey">s</span>direita</button>
+
+                                <button onclick="cli('d');" class="robtn" ><span class="hotkey">d</span>pra trás</button>
+                                <button onclick="cli('e')" class="robtn" ><span class="hotkey">e</span>pra frente</button>
+
+                                <button onclick="cli('r')" class="robtn" ><span class="hotkey">r</span>cima</button>
+                                <button onclick="cli('f')" class="robtn" ><span class="hotkey">f</span>pra baixo</button>
+
+                                <button onclick="cli('q');" class="robtn" ><span class="hotkey">q</span>abre/fecha garra</button>
+
+                                <br>
+                                <br>
+								 <div class="label-container">
+                                    <div class="label label-top">pré definido</div>
+                                </div>                                <br>
+
+								<button onclick="cli('z');"  class="robtn-admin" >stop</button>
+
+                                <button class="robtn-admin" >posição 1</button>
+                                <button class="robtn-admin" >posição 2</button>
+                                <div class="options-container">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="chat-container" class="chat-container">
+         
+                                  <iframe frameborder="0"
+        scrolling="no"
+        id="chat_embed"
+        src="https://www.twitch.tv/embed/hebo/chat?parent=pedroaf0"
+		
+		height="100%"
+        
+        >
+</iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script>
+          function detectMob() {
+    const toMatch = [
+        /Android/i,
+        /webOS/i,
+        /iPhone/i,
+        /iPad/i,
+        /iPod/i,
+        /BlackBerry/i,
+        /Windows Phone/i
+    ];
+
+    return toMatch.some((toMatchItem) => {
+        return navigator.userAgent.match(toMatchItem);
+    });
+}
+if (detectMob()){
+    document.getElementById('list-channels-container').remove();
+    document.getElementById('chat-container').remove();
+
+}
+      const socket = io(`${window.location.hostname}:${window.location.port}`);
+      function cli(a){
+            console.log(a);
+            socket.emit('cli', a);
+            var n = Math.random();
+            document.getElementById('display-info-container').innerHTML += `<div id='${n}' class="display-info">Você clicou em: ${a}</div>`
+            setTimeout(()=>{ document.getElementById(n).remove() },5000)
+
+        }
+        function getname(){
+        var name = prompt("Por favor entre com o seu nome (ele aparecerá nos comandos que você executar)", "");
+        if (name) {
+            socket.emit('name', name);
+        }else{
+            getname();  
+        }
+    }
+    getname();
+    socket.on('data', data =>{
+        var n = Math.random();
+        document.getElementById('display-info-container').innerHTML += `<div id='${n}' class="display-info">${data}</div>`
+        setTimeout(()=>{ document.getElementById(n).remove() },5000)
+    })
+    </script>
+
+
+</body>
+</html>
